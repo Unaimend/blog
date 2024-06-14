@@ -60,8 +60,6 @@ biplot <- ggbiplot(pca_result, obs.scale = 1, var.scale = 1,
 ```
 
 ![Picture](media/biplot.svg)
-![Picture](media/biplot.png)
-
 
 This tells use already that most of the variance is explained by the first principal component or in other words by the a linear combination of the *sepal length*, *petal length* and *petal width*.
 This presents us with two choices, we could directly use the PC1 as a predictor or we can use the three featues as predictors separately.
