@@ -12,6 +12,11 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+taxonomy:
+    category:
+        - Paper
+    tag:
+        - paper
 ---
 
 # Investigating the iris dataset
