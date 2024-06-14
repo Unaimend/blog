@@ -59,8 +59,8 @@ biplot <- ggbiplot(pca_result, obs.scale = 1, var.scale = 1,
          groups = NULL, ellipse = TRUE, circle = TRUE) + theme_minimal()
 ```
 
-!(Picture)(media/biplot.svg)
-!(Picture)(media/biplot.png)
+![Picture](media/biplot.svg)
+![Picture](media/biplot.png)
 
 
 This tells use already that most of the variance is explained by the first principal component or in other words by the a linear combination of the *sepal length*, *petal length* and *petal width*.
