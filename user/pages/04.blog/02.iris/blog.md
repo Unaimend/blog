@@ -1,5 +1,8 @@
 ---
 title: 'Investigating the iris dataset '
+process:
+    markdown: true
+    twig: true
 content:
     items:
         - '@self.children'
@@ -18,6 +21,7 @@ jump to further preprocessing steps.
 
 
 ## Data preprocessing
+
 We will first split our training set into test and train.
 
 
